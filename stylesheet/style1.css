@@ -135,7 +135,7 @@
 
     /* hero section strats here  */
     .hero-cntnt{
-        background-image: url('assets/hero/div.bg-wrap.png');
+        background-image: url('../assets/hero/div.bg-wrap.png');
         height: 97vh;
         background-size: cover;
         background-position: center;

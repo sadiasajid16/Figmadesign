@@ -52,7 +52,7 @@
   padding: 60px 20px 40px;
   background-color: #fff;
   text-align: center;
-  background-image: url('assets/testimonial/bg.png');
+  background-image: url('../assets/testimonial/bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
