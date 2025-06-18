@@ -1,0 +1,200 @@
+/* promo  starts here  */
+.promo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.promo-box {
+  width: 355px;
+  height: 220px;
+  padding: 20px;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: -80px;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.yellow-box {
+  background-image: url(/assets/promo/yellowbg.png);
+}
+
+.green-box {
+  background-image: url(/assets/promo/green\ bg.png);
+}
+
+.promo-box .tag {
+  font-size: 17px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.promo-box h3 {
+  font-family: "Covered By Your Grace", cursive;
+  font-size: 40px;
+  font-weight: 100;
+  margin: 0 0 15px;
+  padding-left: 20px;
+}
+
+.promo-box button {
+  background: #fff;
+  color: #333;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 20px;
+
+}
+.promo-box button:hover{
+  background-color: #666;
+  color: aliceblue;
+}
+
+.veg-hero {
+  background-image: url('/assets/promo/veg-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 20px;
+  color: white;
+  position: relative;
+}
+
+.veg-hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.shop-btn {
+  background-color: #28a745;
+  border: none;
+  padding: 12px 40px;
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* promo section ends here  */
+
+/* hot-deals section starts here  */
+.hot-deal {
+  text-align: center;
+  padding: 70px 20px;
+  background: #fff;
+}
+
+.hot-deal .label {
+  color: #EEC044;
+  font-weight: 100;
+  font-family: "Covered By Your Grace", cursive;
+  font-size:28px ;
+}
+
+.hot-deal h2 {
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+.deal-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.item img {
+  width: 187px;
+  border-radius: 10px;
+}
+.item-desc{
+    display: flex;
+    justify-content: space-between;
+}
+.item-txt h4{
+    font-size: 1rem;
+    line-height: 1rem;
+}
+.item-txt p{
+    color: #4BAF47;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1rem;
+    text-align: start;
+}
+.item-rating img{
+    width: 50px;
+}
+/* hot-deals section ends here  */
+
+/* responsiveness code  */
+@media (min-width: 350px) and (max-width: 768px) {
+  
+  /* Hot Deal Section */
+  .hot-deal {
+    padding: 30px 15px;
+  }
+
+  .hot-deal .label {
+    font-size: 22px;
+  }
+
+  .hot-deal h2 {
+    font-size: 28px;
+    margin-top: -10px;
+  }
+
+  .deal-items {
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 30px;
+  }
+
+  .item img {
+    width: 80%;
+    max-width: 280px;
+  }
+
+  .item-desc {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .item-txt h4 {
+    font-size: 16px;
+  }
+
+  .item-txt p {
+    font-size: 12px;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .item-rating img {
+    width: 60px;
+    margin-top: 10px;
+  }
+}
+@media (min-width:350px) and (max-width:677px){
+  .promo{
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 70px;
+  }
+  .promo-box{
+    max-width: 90%;
+
+  }
+}

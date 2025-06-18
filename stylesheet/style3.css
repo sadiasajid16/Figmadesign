@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Shadows+Into+Light&display=swap');
+
+/* latest product section strats here  */
+.latest-products {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.latest-products .subtitle {
+  color: #f4b400;
+  font-size: 22px;
+  font-family: "Covered By Your Grace", cursive;
+}
+
+.latest-products h2 {
+  font-size: 38px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.products-container {
+  display: flex;
+  justify-content: center;
+}
+.products{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.product-card {
+  width: 250px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.product-card h3 {
+  margin: 0;
+  font-size: 13px;
+  margin-top: -5px;
+}
+
+.product-card .price {
+  color: rgb(89, 219, 89);
+  font-weight: bold;
+  font-size: 10px;
+  margin: 8px 0;
+}
+
+.rating img{
+  width: 50px;
+}
+.rating{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+  @media (max-width: 870px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        place-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        gap:20px;
+        width: 100%;
+    }
+  }
+  @media (max-width: 580px) {
+    .products {
+        grid-template-columns: 1fr;
+        width: 100%;
+        place-items: center;
+    }
+  }
