@@ -20,11 +20,11 @@
 }
 
 .yellow-box {
-  background-image: url(/assets/promo/yellowbg.png);
+  background-image: url(assets/promo/yellowbg.png);
 }
 
 .green-box {
-  background-image: url(/assets/promo/green\ bg.png);
+  background-image: url(assets/promo/green\ bg.png);
 }
 
 .promo-box .tag {
@@ -59,7 +59,7 @@
 }
 
 .veg-hero {
-  background-image: url('/assets/promo/veg-bg.jpg');
+  background-image: url('assets/promo/veg-bg.jpg');
   background-size: cover;
   background-position: center;
   text-align: center;
